@@ -1,0 +1,90 @@
+# <ucusTipi> seçiliyor.
+* <ucusTipi> textine esit olana "FlightModuleTopContainer" elementine tikla
+
+# Gidis icin <nereden> havalimani seciliyor.
+* "DepatureArea" elementine tikla
+* "DepatureInput" elementine <nereden> degerini yaz
+* <nereden> textine esit olana "AirportName" elementine tikla
+
+# Donus icin <nereye> havalimani seciliyor.
+* "ArrivelArea" elementine tikla
+* "ArrivelInput" elementine <nereye> degerini yaz
+* <nereye> textine esit olana "AirportName" elementine tikla
+
+# Gidis icin <gidis> tarihi seciliyor.
+* "DepatureDateArea" elementine tikla
+* Gidis icin "depatureDays" elementlerinden <gidis> tarihi seciliyor. "depatureNextMonthButton"
+
+# <gidis> ve <donus> tarihi seciliyor.
+* "DepatureDateArea" elementine tikla
+* Gidis icin "depatureDays" elementlerinden <gidis> tarihi seciliyor. "depatureNextMonthButton"
+* "ReturnDateArea" elementine tikla
+* Donus icin "returnDays" elementlerinden <donus> tarihi seciliyor. "returnNextMonthButton",<gidis>
+
+# Ucuz Bilet Bul butonuna tiklanir.
+* "searchButton" elementine tikla
+* "5" saniye kadar bekle
+
+# Gidis-Donus sonuclarinin <nereden>,<nereye>,<gidis>,<donus> bilgilere gore geldigi dogrulanir.
+* Arama sonuc sayfasinin url'inin <nereden>,<nereye>,<gidis>,<donus> bilgileri icerdigi dogrulanır
+
+# Tek Yon sonuclarinin <nereden>,<nereye>,<gidis> bilgilere gore geldigi dogrulanir.
+* Arama sonuc sayfasinin url'inin <nereden>,<nereye>,<gidis> bilgileri icerdigi dogrulanır
+
+# Ucus listesinin geldigi dogrulanir.
+* "chooseFlightButton" elementi var mı?
+
+# <filtere> filtiresine tiklaniyor.
+* <filtere> textine esit olana "filterCardText" elementine tikla
+
+# Kalkis saati <saat1> ile <saat2> seciliyor.
+* "sliderBarLeft" elementinin değeri <saat1> olarak ayarlanir
+* "sliderBarRight" elementinin değeri <saat2> olarak ayarlanir.
+
+# Ucusların kalkis saatleri <saat1> ile <saat2> arasinda oldugu dogrulanir.
+* "flightsTime" elementinin degerleri <saat1> ile <saat2> arasinda oldugu dogrulanir
+
+# <text> icin fiyatlarin artan sekilde geldigi dogrulanir.
+* "airlineName" li elementlerden <text> değerine eşit olanın karsisindaki "airlinePricePath" elementinin degerleri kontrol edilir
+
+# İlk ucusun <text> paketi seçili oldugu doğrulanır.
+* "chooseFlightButton" elementine tikla
+//* <text> textine esit olana "ticketType" elementine tikla
+* <text> li "selectedTicketType" elementi var mı?
+
+# Rezervasyon sayfasina gidilir ve <text> sayfasinin geldiği doğrulanir.
+* "selectTicket" elementine tikla
+* <text> li "pageName" elementi var mı?
+
+# İletisim bilgileri <email> ve <phone> girilir.
+* "emailArea" elementine <email> degerini yaz
+* "phoneArea" elementine <phone> degerini yaz
+
+# Yolcu ismi <ad>, soyad <soyad> girilir.
+* "nameArea" elementine <ad> degerini yaz
+* "surnameArea" elementine <soyad> degerini yaz
+
+# Dogum tarihi <gün>,<ay>,<yıl> girilir.
+* "Gün" textine esit olana "birthdayArea" elementine tikla
+* <gün> textine esit olana "dayInput" elementine tikla
+* "Ay" textine esit olana "birthdayArea" elementine tikla
+* <ay> textine esit olana "monthInput" elementine tikla
+* "Yıl" textine esit olana "birthdayArea" elementine tikla
+* <yıl> textine esit olana "yearInput" elementine tikla
+
+# TC Vatandasi Degil secilir.
+* "foreignCheckbox" elementine tikla
+
+# Cinsiyet secilir.
+* "genderM" elementine tikla
+
+# Odemeye ilerle butonuna tiklanir ve Odeme ekraninin geldiği dogrulanir.
+* "continueButton" li elemente scroll yapılır.
+* "continueButton" elementine tikla
+* "5" saniye kadar bekle
+* "payButton" elementi var mı?
+
+
+
+
+

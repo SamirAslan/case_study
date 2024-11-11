@@ -1,0 +1,182 @@
+[
+  {
+    "key": "FlightModuleTopContainer",
+    "value": "//div/label[@name]/div[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "DepatureArea",
+    "value": "//div[@data-testid='flight-origin-label']",
+    "type": "xpath"
+  },
+  {
+    "key": "DepatureInput",
+    "value": "//input[@data-testid='endesign-flight-origin-autosuggestion-input']",
+    "type": "xpath"
+  },
+  {
+    "key": "ArrivelArea",
+    "value": "//div[@data-testid='flight-destination-label']",
+    "type": "xpath"
+  },
+  {
+    "key": "ArrivelInput",
+    "value": "//input[@data-testid='endesign-flight-destination-autosuggestion-input']",
+    "type": "xpath"
+  },
+  {
+    "key": "AirportName",
+    "value": "//ul/div/li//span[@data-testid]/span[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "DepatureDateArea",
+    "value": "//label[@data-testid='enuygun-homepage-flight-departureDate-input-comp']",
+    "type": "xpath"
+  },
+  {
+    "key": "ReturnDateArea",
+    "value": "//label[@data-testid='enuygun-homepage-flight-returnDate-input-comp']",
+    "type": "xpath"
+  },
+  {
+    "key": "depatureNextMonthButton",
+    "value": "//button[@data-testid='enuygun-homepage-flight-departureDate-month-forward-button']",
+    "type": "xpath"
+  },
+  {
+    "key": "returnNextMonthButton",
+    "value": "//button[@data-testid='enuygun-homepage-flight-returnDate-month-forward-button']",
+    "type": "xpath"
+  },
+  {
+    "key": "depatureDays",
+    "value": "//div[@data-testid='enuygun-homepage-flight-departureDate']/div/div/div[2]//button[span[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "returnDays",
+    "value": "//div[@data-testid='enuygun-homepage-flight-returnDate']/div/div/div[1]//button[span[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "searchButton",
+    "value": "//button[@data-testid='enuygun-homepage-flight-submitButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "chooseFlightButton",
+    "value": "//div[@class='flight-list-body']/div[1]//button[span[text()='Seç']]",
+    "type": "xpath"
+  },
+  {
+    "key": "filterCardText",
+    "value": "//div[@class='filter-accordion  ']/div/div/span[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "sliderBarLeft",
+    "value": "//div[@class='search__filter_departure']//div[@class='rc-slider-handle rc-slider-handle-1']",
+    "type": "xpath"
+  },
+  {
+    "key": "sliderBarRight",
+    "value": "//div[@class='search__filter_departure']//div[@class='rc-slider-handle rc-slider-handle-2']",
+    "type": "xpath"
+  },
+  {
+    "key": "flightsTime",
+    "value": "//div[@class='flight-departure-time']",
+    "type": "xpath"
+  },
+  {
+    "key": "airlineName",
+    "value": "//div[@class='flight-list-body']//div[@class='flight-summary-infos']/div[1]/div/div[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "airlinePricePath",
+    "value": "..//..//..//..//div[4]//span[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ticketType",
+    "value": "//div[@data-testid='providerPackageMain']/div//p[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectedTicketType",
+    "value": "//div[@data-testid='providerPackageMain']/div[@class=\" provider-package__item selected\"]//p[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectTicket",
+    "value": "//button[@data-testid=\"providerSelectBtn\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "emailArea",
+    "value": "//input[@id='contact_email']",
+    "type": "xpath"
+  },
+  {
+    "key": "nameArea",
+    "value": "//input[@id='firstName_0']",
+    "type": "xpath"
+  },
+  {
+    "key": "surnameArea",
+    "value": "//input[@id='lastName_0']",
+    "type": "xpath"
+  },
+  {
+    "key": "phoneArea",
+    "value": "//input[@id='contact_cellphone']",
+    "type": "xpath"
+  },
+  {
+    "key": "pageName",
+    "value": "//span[@class='step-texts'][text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "birthdayArea",
+    "value": "//div[@class=\"birthDate-inputs\"]/div/select[option[1][text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "dayInput",
+    "value": "//div[@class=\"birthDate-inputs\"]/div/select[option[1][text()='Gün']]/option[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "monthInput",
+    "value": "//div[@class=\"birthDate-inputs\"]/div/select[option[1][text()='Ay']]/option[@value='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "yearInput",
+    "value": "//div[@class=\"birthDate-inputs\"]/div/select[option[1][text()='Yıl']]/option[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "foreignCheckbox",
+    "value": "//input[@id='foreignCheckbox_0']",
+    "type": "xpath"
+  },
+  {
+    "key": "genderM",
+    "value": "//label[@for='gender_M_0']",
+    "type": "xpath"
+  },
+  {
+    "key": "continueButton",
+    "value": "[id='continue-button']",
+    "type": "css"
+  },
+  {
+    "key": "payButton",
+    "value": "//button[@data-testid=\"payment-form-submit-button\"]",
+    "type": "xpath"
+  }
+]
